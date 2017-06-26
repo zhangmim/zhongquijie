@@ -1,0 +1,121 @@
+.animate{
+    animation: 1s linear;
+}
+.infinite{
+    animation-iteration-count: infinite;
+}
+.forwards{
+    animation-fill-mode: forwards !important;
+}
+.movescale{
+    animation-name: movescale;
+}
+@keyframes movescale {
+    0%{transform: scale(0)}
+    100%{transform: scale(1)}
+}
+.moveyun{
+    animation: moveyun 5s linear infinite;
+}
+@keyframes moveyun {
+    0%{transform: translateX(-4rem)}
+    50%{transform: translateX(0rem)}
+    100%{transform: translateX(6rem)}
+}
+.moveleft{
+    animation: moveleft 1s linear;
+}
+@keyframes moveleft {
+    0%{transform: translateX(-6rem)}
+    75%{transform:skew(30deg)}
+    100%{transform: translateX(0rem)}
+}
+.moveright{
+    animation: moveright 1s linear;
+}
+@keyframes moveright {
+    0%{transform: translateX(6rem)}
+    75%{transform:skew(-30deg)}
+    100%{transform: translateX(0rem)}
+}
+.movexingxing{
+    animation-name: movexingxing;
+}
+@keyframes movexingxing {
+    0%{transform: translateX(6rem);opacity: 0}
+    75%{transform:scale(2);opacity: 0.3}
+    100%{transform: translateX(0rem);opacity: 1}
+}
+.movexing{
+    animation-name: movexing;
+}
+@keyframes movexing {
+    0%{transform: translateX(-6rem);opacity: 0}
+    75%{transform:scale(2);opacity: 0.3}
+    100%{transform: translateX(0rem);opacity: 1}
+}
+.movexian{
+    animation-name: movexian;
+}
+@keyframes movexian {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.movetext{
+    animation-name: movetext;
+}
+@keyframes movetext {
+    0%{transform: scale(0)}
+    100%{transform: scale(1)}
+}
+.movetext2{
+    animation-name: movetext2;
+    animation-delay: 1s;
+}
+@keyframes movetext2 {
+    0%{transform: translateY(-4rem)rotateX(90deg);}
+    80%{transform: scale(1.2)}
+    100%{transform: translateY(0rem) rotateX(0deg)scale(1)}
+}
+.top{
+    animation-name: top;
+    animation-delay:1s;
+}
+.left{
+    animation-name: left;
+    animation-delay:2s;
+}
+
+.scale{
+    animation-name: scale;
+    animation-delay:3s;
+}
+@keyframes top {
+    0%{transform: translateY(-4rem)}
+    100%{transform: translateY(0rem)}
+}
+@keyframes left {
+    0%{transform: translateX(-4rem)}
+    100%{transform: translateX(0rem)}
+}
+
+@keyframes scale {
+    0%{transform: scale(0)}
+    100%{transform: scale(1)}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
